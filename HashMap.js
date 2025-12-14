@@ -1,4 +1,4 @@
-class HashMap {
+export class HashMap {
   constructor() {
     this.buckets = [new Array(16)];
   }
@@ -24,7 +24,7 @@ class HashMap {
   keys(){}
   values(){}
   entries(){}
-  
+
 }
 
 let hash = new HashMap();
