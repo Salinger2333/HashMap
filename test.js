@@ -14,7 +14,15 @@ test.set('jacket', 'blue')
 test.set('kite', 'pink')
 test.set('lion', 'golden')
 
+console.log(test.get("lion"));
+// console.log(test.length());
+// console.table(test.keys());
+// console.table(test.values());
+console.table(test.entries());
+// test.clear()
+// console.table(test.keys());
 
-
-//it will exceed the load factor
-// test.set('moon', 'silver')
+// it will exceed the load factor
+test.set('moon', 'silver')
+console.log(test.length());
+console.table(test.entries());
